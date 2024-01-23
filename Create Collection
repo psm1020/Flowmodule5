@@ -9,6 +9,6 @@ transaction() {
   }
 
   execute {
-    log("Collection Created!")
+    log("Collection is Created!")
   }
 }
