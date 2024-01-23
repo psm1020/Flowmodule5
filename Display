@@ -4,7 +4,7 @@ import NonFungibleToken from 0x05
 pub fun main(acc: Address, _id: UInt64): &NonFungibleToken.NFT {
     let pubRef = getAccount(acc).getCapability(/public/MyCollection)
                     .borrow<&CryptoPoops.Collection{CryptoPoops.CollectionPub}>()
-                    ?? panic("Collection doesn't exist here")
+                    ?? panic("No collection")
 
     let ids = pubRef.getIDs()
 
