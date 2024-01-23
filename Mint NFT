@@ -7,12 +7,12 @@ transaction(acc: Address, _name: String, _favFood: String, _luckyNo: Int) {
 
     let pubRef = getAccount(acc).getCapability(/public/MyCollection)
                     .borrow<&CryptoPoops.Collection{CryptoPoops.CollectionPub}>()
-                    ?? panic("Collection doesn't exist here")
+                    ?? panic("No Collection ")
 
     pubRef.deposit(token: <- minter.createNFT(name: _name, favouriteFood: _favFood, luckyNumber: _luckyNo))
   }
 
   execute {
-    log("NFT Minted")
+    log("NFT is Minted")
   }
 }
