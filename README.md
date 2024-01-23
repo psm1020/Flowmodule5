@@ -1,12 +1,11 @@
 
 # NFT Minting
 
-This code serves as a foundational example illustrating the process of minting non-fungible tokens (NFTs) in Cadence on the Flow blockchain. It can be employed as a launching point for the development of your customized NFTs on the Flow network.
+This code serves as an illustrative example demonstrating the process of minting non-fungible tokens (NFTs) in Cadence on the Flow blockchain. It provides a foundational template that can serve as a starting point for the development of customized NFTs on the Flow network. Developers can leverage this code as a basis for creating their own unique non-fungible tokens with specific properties and behaviors on the Flow blockchain.
 
 ## Description
 
-This program is a simple contract written in Cadence. The contract allows you to mint NFTs.First it creates a collection in the account address given by the owner.Then it takes the input from the user like address,user name,lucky number,fav food etc. and it mints an NFT.
- 
+This program, written in Cadence, serves as a straightforward contract that enables users to mint Non-Fungible Tokens (NFTs). Initially, it establishes a collection within the account address specified by the owner. Subsequently, the program prompts the user for input, including details such as address, username, lucky number, favorite food, and more. Using this input, the contract proceeds to mint a unique NFT, allowing for the creation of personalized and distinct tokens on the Flow blockchain.
 
 ## Requirements
 
